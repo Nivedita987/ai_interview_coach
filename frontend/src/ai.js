@@ -1,7 +1,7 @@
 export async function generateQuestions_Gemini(type, topic) {
   try {
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyBwFKN-5QNF1TVHW-lb988O4MuJklRFe4s",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
